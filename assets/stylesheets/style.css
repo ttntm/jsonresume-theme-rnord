@@ -1,27 +1,43 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:300,400,700');
 
 body {
-	background: #fff;
+	background: #ECEFF4;
 	font-family: Lato, sans-serif;
 	font-weight: 300;
-	color: #333;
+	color: #2E3440;
 	margin: 0 0 80px;
 	font-size: 15px;
 }
 
+::selection {
+  background: #000;
+  color: #fff;
+}
+
+::-moz-selection {
+  background: #000;
+  color: #fff;
+}
+
 a {
-	color: #E32B46;
+	color: #5E81AC;
+  font-weight: 500;
+  text-decoration: underline;
+  text-decoration-color: #D8DEE9;
+  text-decoration-thickness: 2px;
 }
 
 a:focus, a:hover {
-	color: #333;
-	text-decoration: none;
+	color: #4C566A;
+  text-decoration: underline;
+  text-decoration-color: #5E81AC;
+  text-decoration-thickness: 2px;
 }
 
 strong {
 	font-size: smaller;
 	font-weight: 400;
-	color: #333;
+	color: #4C566A;
 }
 
 p {
@@ -36,7 +52,7 @@ p + p {
 h1, h2, h3, h4 {
 	margin-top: 0;
 	font-weight: 300;
-	color: #555;
+	color: #81A1C1;
 }
 
 section {
@@ -55,7 +71,7 @@ li {
 li:before {
 	content: "\f052";
 	float: left;
-	font: 16px Octicons;
+	font: 14px Octicons;
 	margin-top: 6px;
 	margin-left: -20px;
 	opacity: .1;
@@ -63,19 +79,19 @@ li:before {
 }
 
 blockquote {
-  border-left: 3px solid #e7e9ec;
+  border-left: 3px solid #5E81AC;
   font-size: 14px;
   margin-bottom: 4px;
 }
 
 em {
-	color: #666;
+	color: #4C566A;
 	font-weight: 300;
 	font-style: normal;
 }
 
 h4 span:first-child {
-	color: #333;
+	color: #4C566A;
 	font-weight: 400;
 }
 
@@ -101,12 +117,12 @@ h4 span:first-child {
 }
 
 #header h2 {
-	color: #95a5a6;
+	color: #4C566A;
 	font-size: 24px;
 }
 
 #content h3 {
-	color: #555;
+	color: #4C566A;
 	font-size: 26px;
 	margin-top: -4px;
 }
@@ -122,6 +138,7 @@ h4 span:first-child {
 
 #work .position,
 #volunteer .position {
+  color: #5E81AC;
 	font-weight: 400;
 	margin-bottom: 8px;
 }
@@ -137,7 +154,7 @@ h4 span:first-child {
 }
 
 #education .studyType {
-	margin-left: 25px;
+	margin-left: 32px;
 }
 
 #awards .summary,
@@ -149,9 +166,13 @@ h4 span:first-child {
 	content: attr(href);
 }
 
+.shadow {
+  box-shadow: 0 0.125rem 0.25rem rgba(0,0,0,0.075);
+}
+
 @media (min-width: 480px) {
 	.strike-through {
-		border-top: 1px solid #f4f6f6;
+		border-top: 1px solid #D8DEE9;
 		height: 20px;
 		margin-top: 12px;
 		margin-bottom: -2px;
@@ -160,7 +181,7 @@ h4 span:first-child {
 
 	.strike-through span,
 	.strike-through a {
-		background: #fff;
+		background: #ECEFF4;
 		position: absolute;
   }
 
@@ -269,7 +290,7 @@ h4 span:first-child {
 
 	blockquote {
 		border: 0;
-		border-left: 3px solid #e7e9ec;
+		border-left: 3px solid #5E81AC;
 		font-size: 12px;
 	}
 

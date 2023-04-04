@@ -35,10 +35,12 @@
               <em>by</em>
               <strong><%= c.issuingOrganization %></strong>
             </div>
-            <div class="summary">
-              <em>Credential ID</em>
-              <a target="_blank" href="<%= c.credentialURL %>"><%= c.credentialID %></a>
-            </div>
+            <%if (c.credentialID && c.credentialURL) { %>
+              <div class="summary">
+                <em>Credential ID</em>
+                <a target="_blank" href="<%= c.credentialURL %>"><%= c.credentialID %></a>
+              </div>
+            <% } %>
           </div>
         <% }); %>
       </div>

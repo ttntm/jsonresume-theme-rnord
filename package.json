@@ -1,7 +1,7 @@
 {
-  "name": "jsonresume-theme-rocketspacer",
-  "version": "1.2.2",
-  "description": "My (rocketspacer) personal theme for JSON Resume",
+  "name": "jsonresume-theme-rnord",
+  "version": "0.0.1",
+  "description": "Nord version of jsonresume-theme-rocketspacer",
   "keywords": [
     "resume",
     "jsonresume",
@@ -9,11 +9,11 @@
     "curriculum vitae",
     "CV"
   ],
-  "author": "Tuan Nguyen <nmtuan.dev@gmail.com>",
+  "author": "ttntm",
   "license": "MIT",
-  "homepage": "https://rocketspacer.github.io/jsonresume-theme-rocketspacer",
-  "bugs": "https://github.com/rocketspacer/jsonresume-theme-rocketspacer/issues",
-  "repository": "github:rocketspacer/jsonresume-theme-rocketspacer",
+  "homepage": "https://github.com/ttntm/jsonresume-theme-rocketspacer-nord",
+  "bugs": "https://github.com/ttntm/jsonresume-theme-rocketspacer-nord/issues",
+  "repository": "github:ttntm/jsonresume-theme-rocketspacer-nord",
   "engines": {
     "node": ">= 10.0.0"
   },
