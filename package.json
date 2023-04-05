@@ -11,9 +11,9 @@
   ],
   "author": "ttntm",
   "license": "MIT",
-  "homepage": "https://github.com/ttntm/jsonresume-theme-rocketspacer-nord",
-  "bugs": "https://github.com/ttntm/jsonresume-theme-rocketspacer-nord/issues",
-  "repository": "github:ttntm/jsonresume-theme-rocketspacer-nord",
+  "homepage": "https://github.com/ttntm/jsonresume-theme-rnord",
+  "bugs": "https://github.com/ttntm/jsonresume-theme-rnord/issues",
+  "repository": "github:ttntm/jsonresume-theme-rnord",
   "engines": {
     "node": ">= 10.0.0"
   },
