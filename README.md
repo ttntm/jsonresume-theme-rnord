@@ -1,5 +1,7 @@
 # jsonresume-theme-rnord
 
+[![npm version](https://badge.fury.io/js/jsonresume-theme-rnord.svg)](https://badge.fury.io/js/jsonresume-theme-rnord)
+
 A [jsonresume](https://jsonresume.org) theme built in my free time. 
 
 A live demo can be found here: (https://ttntm.me/demos/rnord/)
